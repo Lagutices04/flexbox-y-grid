@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -10,13 +11,6 @@ p,nav{
 }
 p{
     font-weight: 600;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 0 20px;
 }
 .img{
     margin-left: 50px;
@@ -33,33 +27,31 @@ li:hover{
     border-radius: 20px;
 }
 
-
-#contenedor-primero {
+#contenedor-principal {
     width: 70%;
     overflow: hidden;
-    background: #e07cd8; 
+    background: #60626b; 
     margin: 20px,auto;
     padding: 20px 0px;
    float: inline-start;
   
 }
-#contenedor-primero{
+#contenedor-principal{
     padding: 0px;
     margin: 0px;
 }
-#contenedor-terciario {
+#contenedor-3 {
     width: 70%;
     overflow: hidden;
-    background: #a679ac; 
+    background: #3d4775; 
     margin: 20px,auto;
     padding: 20px 0px;
    float: inline-start;
   
 }
-#contenedor-terciario{
+#contenedor-3{
     padding: 0px;
     margin: 0px;
-    background-color: peachpuff;
 }
 @media screen and(max-width:1200px){
     .caja ul li{
@@ -68,4 +60,5 @@ li:hover{
 
     }
 }
+
 
